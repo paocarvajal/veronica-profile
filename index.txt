@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeoProfile S.A. de C.V. - Tu Impacto en el Equipo (Veronica Martinez)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <!-- Paleta de Colores: Verde Olivo -->
+    <!-- NO SE USARON SVG NI MERMAID JS. -->
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8; /* Fondo gris claro */
+        }
+        .text-shadow {
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+        .flow-arrow {
+            color: #556B2F; /* Verde Olivo Oscuro */
+            font-size: 2rem;
+            line-height: 1;
+        }
+        .team-member-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .financial-table-personal th, .financial-table-personal td {
+            padding: 0.5rem 1rem;
+            text-align: left;
+            white-space: nowrap;
+        }
+        .financial-table-personal th {
+            background-color: #e2e8f0;
+            font-weight: 600;
+        }
+        .financial-table-personal tbody tr:nth-child(even) {
+            background-color: #f8fafc;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <header class="bg-[#556B2F] text-white text-center py-12 px-4">
+        <h1 class="text-4xl md:text-6xl font-black uppercase text-shadow">NeoProfile S.A. de C.V.</h1>
+        <p class="text-xl md:text-2xl mt-4 font-light text-shadow">This isn't our first venture. It's our best one.</p>
+    </header>
+
+    <main class="container mx-auto px-4 py-8 md:py-12">
+
+        <section id="personal-impact" class="text-center mb-16">
+            <h2 class="text-3xl font-bold text-[#556B2F] mb-4">Tu Impacto y Crecimiento en NeoProfile</h2>
+            <p class="max-w-3xl mx-auto text-lg text-gray-600 mb-8">
+                Esta infografía está diseñada para reconocer tu invaluable contribución y mostrar cómo tu dedicación se traduce en crecimiento y éxito compartido. Eres una pieza clave en nuestra trayectoria.
+            </p>
+        </section>
+
+        <section id="member-profile" class="mb-16">
+            <div class="bg-white p-8 rounded-lg shadow-lg text-center">
+                <div class="flex flex-col items-center mb-6">
+                    <div class="text-6xl mb-3">📈</div>
+                    <h3 class="text-3xl font-bold text-[#556B2F]">Veronica Martinez</h3>
+                    <p class="text-xl text-gray-600">Directora de Contabilidad y Finanzas</p>
+                    <p class="text-lg font-semibold text-[#CD853F] mt-2">2% de Propiedad</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+                    <div class="text-left">
+                        <h4 class="text-2xl font-bold text-[#8B8844] mb-3">Tu Rol: Guardiana de Nuestra Solidez Financiera</h4>
+                        <p class="text-gray-600 mb-4">
+                            Como Directora de Contabilidad y Finanzas, eres la garante de la salud económica de NeoProfile. Tu meticulosa gestión contable y tu aguda visión financiera aseguran la transparencia y la solidez que sustentan cada decisión estratégica. Tu experiencia es vital para optimizar nuestros recursos, cumplir con las normativas y proyectar un futuro de crecimiento financiero robusto.
+                        </p>
+                        <p class="text-gray-600 font-semibold">
+                            Tu liderazgo en contabilidad y finanzas es la base para la confianza y la sostenibilidad de NeoProfile. Eres una verdadera hacedora de diferencias.
+                        </p>
+                    </div>
+                    <div>
+                        <h4 class="text-2xl font-bold text-[#8B8844] mb-3">Tu Crecimiento Compartido (Valor Anual Proyectado de tus Acciones)*</h4>
+                        <div class="overflow-x-auto w-full">
+                            <table class="w-full financial-table-personal border-collapse">
+                                <thead>
+                                    <tr class="border-b border-gray-300">
+                                        <th>Año</th>
+                                        <th>Valor Proyectado (USD)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr><td>Año 1</td><td>$2,352.54</td></tr>
+                                    <tr><td>Año 2</td><td>$3,741.24</td></tr>
+                                    <tr><td>Año 3</td><td>$5,358.70</td></tr>
+                                    <tr><td>Año 4</td><td>$7,280.48</td></tr>
+                                    <tr><td>Año 5</td><td>$9,196.94</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <p class="text-sm text-gray-500 mt-2">*Este valor representa tu participación proporcional en las utilidades netas proyectadas de la empresa, mostrando el crecimiento del valor de tus acciones.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="benefits" class="mb-16">
+            <h2 class="text-3xl font-bold text-center text-[#556B2F] mb-8">Tus Beneficios y Reconocimiento</h2>
+            <div class="bg-white p-8 rounded-lg shadow-lg">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div>
+                        <h4 class="text-2xl font-bold text-[#A2B963] mb-3">Beneficios de Ley Mexicanos:</h4>
+                        <ul class="list-disc list-inside space-y-2 text-gray-600">
+                            <li>IMSS: Cobertura de salud, maternidad, invalidez, vida, guarderías y prestaciones sociales.</li>
+                            <li>INFONAVIT: Acceso a créditos para vivienda.</li>
+                            <li>SAR: Sistema de Ahorro para el Retiro (Cesantía y Vejez, Retiro).</li>
+                            <li>Vacaciones: Días de descanso pagados, esenciales para tu bienestar.</li>
+                            <li>Aguinaldo: Bono anual garantizado (mínimo 15 días de salario).</li>
+                            <li>Prima Vacacional: Adicional a tus vacaciones (mínimo 25% del salario de vacaciones).</li>
+                            <li>PTU (Participación de los Trabajadores en las Utilidades): Recibirás una parte de las utilidades de la empresa, conforme a la ley mexicana.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-2xl font-bold text-[#A2B963] mb-3">Reconocimiento y Crecimiento Adicional:</h4>
+                        <ul class="list-disc list-inside space-y-2 text-gray-600">
+                            <li>Bono Especial de Fin de Año: Al cierre del año, cada miembro del equipo recibe un bono equivalente a más del 50% de su nómina mensual junto con su pago de diciembre, reconociendo tu esfuerzo y compromiso excepcional.</li>
+                            <li>Propiedad en la Empresa: Tu porcentaje de propiedad en NeoProfile te convierte en un socio clave, alineando tu éxito personal directamente con el crecimiento y la rentabilidad de la empresa a largo plazo.</li>
+                            <li>Ambiente de Liderazgo: Trabajas en un ambiente que valora la ética, el respeto y el crecimiento compartido, liderado por un equipo con valores sólidos.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="culture-future" class="mb-16">
+            <h2 class="text-3xl font-bold text-center text-[#556B2F] mb-8">Nuestra Cultura y Tu Futuro en NeoProfile</h2>
+            <div class="bg-white p-8 rounded-lg shadow-lg text-center">
+                <p class="max-w-3xl mx-auto text-lg text-gray-600 mb-6">
+                    En NeoProfile, construimos más que una empresa; forjamos una cultura de excelencia, integridad y colaboración. Eres parte esencial de un equipo donde tu voz importa y tu desarrollo profesional es una prioridad.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div>
+                        <div class="text-5xl mb-3 text-[#CD853F]">🌱</div>
+                        <h3 class="text-xl font-bold text-[#556B2F]">Desarrollo Profesional Continuo</h3>
+                        <p class="text-gray-600 text-sm">Creemos en tu crecimiento. Accede a oportunidades de capacitación y desarrollo que te permitirán expandir tus habilidades y avanzar en tu carrera dentro de NeoProfile.</p>
+                    </div>
+                    <div>
+                        <div class="text-5xl mb-3 text-[#B8860B]">🤝🏽</div>
+                        <h3 class="text-xl font-bold text-[#556B2F]">Valores que Nos Definen</h3>
+                        <p class="text-gray-600 text-sm">Nuestra operación se basa en la confianza, la ética y el compromiso. Formas parte de un ambiente de trabajo donde estos principios no solo se hablan, sino que se viven día a día.</p>
+                    </div>
+                    <div>
+                        <div class="text-5xl mb-3 text-[#A2B963]">🌟</div>
+                        <h3 class="text-xl font-bold text-[#556B2F]">Impacto Duradero</h3>
+                        <p class="text-gray-600 text-sm">Tu trabajo contribuye directamente a transformar la industria, ofreciendo soluciones innovadoras y sostenibles. Eres parte de un legado que estamos construyendo juntos.</p>
+                    </div>
+                </div>
+                <p class="max-w-3xl mx-auto text-lg text-gray-600 mt-8 font-semibold">
+                    Tu futuro en NeoProfile es brillante, lleno de oportunidades y de un propósito compartido. ¡Estamos emocionados de continuar este viaje contigo!
+                </p>
+            </div>
+        </section>
+        
+    </main>
+    
+    <footer class="bg-[#556B2F] text-white text-center py-10 px-4">
+        <h2 class="text-3xl font-bold mb-4">NeoProfile: Tu Éxito, Nuestra Prioridad.</h2>
+        <p class="mb-6">Trabajemos juntos para construir un futuro más eficiente y sostenible.</p>
+        <p class="font-semibold">Juntos, Somos la Diferencia.</p>
+    </footer>
+
+    <script>
+        // Funciones Chart.js (mantienen por consistencia si se añaden gráficos futuros)
+        function wrapLabels(label, maxWidth) {
+            const words = label.split(' ');
+            const lines = [];
+            let currentLine = '';
+
+            words.forEach(word => {
+                if ((currentLine + ' ' + word).length > maxWidth) {
+                    lines.push(currentLine);
+                    currentLine = word;
+                } else {
+                    currentLine = currentLine ? currentLine + ' ' + word : word;
+                }
+            });
+            lines.push(currentLine);
+            return lines;
+        }
+        
+        const tooltipTitleCallback = (tooltipItems) => {
+            const item = tooltipItems[0];
+            let label = item.chart.data.labels[item.dataIndex];
+            if (Array.isArray(label)) {
+              return label.join(' ');
+            }
+            return label;
+        };
+        
+        // Paleta de colores para mantener consistencia visual
+        const oliveGreenPalette = [
+            '#556B2F', // Dark Olive Green
+            '#8B8844', // Darker Yellow-Green
+            '#A2B963', // Medium Green
+            '#CD853F', // Dark Orange/Brown
+            '#B8860B', // Dark Goldenrod
+            '#6B8E23', // Olive Drab
+            '#DDA0DD'  // Plum
+        ];
+
+        window.onload = function() {
+            // No hay gráficos de Chart.js en este borrador, por lo que no se inicializa Chart.js aquí.
+            // Si se añaden gráficos en el futuro, el código de inicialización de Chart.js iría aquí.
+        };
+    </script>
+</body>
+</html>
